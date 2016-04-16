@@ -1,14 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>FCC DSR</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
-<body id="page-top" data-spy="scroll">
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<nav class="navbar navbar-custom navbar-fixed-top">
 <div class="container">
-<button type="button" class="navbar-toggle collapsed">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">FCC DSR</a>
 </div>
+<div id="navbar" class="collapse navbar-collapse navbar-bar">
+<ul class="nav navbar-nav">
+<li class="active"><a href="index.html">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+<li><a href="../navbar-static-top/">Static top</a></li>
+<li><a href="../navbar-fixed-top/">Fixed top</a></li>
+</ul>
+</div><!--/.nav-collapse -->
 </nav>
 <h1>Hello, FCC DataScience Room webpage</h1>
 <p>In this page you will find updates of activities of the FreeCodeCamp DataScience room</p>
@@ -70,3 +94,4 @@
 </br>
 <h3>Stay in Touch!</h3>
 </body>
+</html>
